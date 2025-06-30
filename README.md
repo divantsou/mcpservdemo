@@ -6,6 +6,7 @@ To run the server add the following to your mcp config file:
     "Addition": {
       "command": "/opt/homebrew/bin/uv",
       "args": [
+        "--from",
         "git+https://github.com/divantsou/mcpservdemo.git",
         "mcp-server"
       ]
